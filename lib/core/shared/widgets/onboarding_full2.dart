@@ -21,13 +21,13 @@ class OnboardingFull2 extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 50,left: 10,right: 10),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.end,
         children: [
           SkipLogoRow(onSkip: onSkip),
           OnBoardingBody(
               image: AppImages().onBoardingPhoto[1],
-              photoWidth:200,
-              photoHight: 200,
+              photoWidth:250,
+              photoHight: 250,
               title: OnBoardingText().title[1],
               subTitle: OnBoardingText().subtitle[1]
           ),
